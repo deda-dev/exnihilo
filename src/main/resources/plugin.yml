@@ -1,0 +1,4 @@
+name: ExNihilo
+version: '${project.version}'
+main: de.deda.exnihilo.ExNihilo
+api-version: 1.19
