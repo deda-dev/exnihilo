@@ -39,7 +39,6 @@ public final class ExNihilo extends JavaPlugin implements Listener {
         getServer().getPluginManager().registerEvents(new PlayerInteractListener(), this);
         getServer().getPluginManager().registerEvents(new PlayerBucketListener(), this);
 
-
     }
 
     @Override
