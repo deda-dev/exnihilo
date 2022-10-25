@@ -19,9 +19,7 @@ import org.bukkit.persistence.PersistentDataType;
 public class PlayerBucketListener implements Listener {
 
     //
-    //
     // Funktioniert teilweise nicht!!!!!
-    //
     //
 
     @EventHandler
