@@ -20,7 +20,7 @@ public final class ExNihilo extends JavaPlugin implements Listener {
     @Override
     public void onEnable() {
         plugin = this;
-        addRecipes();
+
 
         // How to exportieren das Plugin
         // Maven (rechts, ist von oben nach unten geschrieben so: // M
@@ -30,6 +30,8 @@ public final class ExNihilo extends JavaPlugin implements Listener {
         //                                                        // N)
         // dann auf "LifeCycle" und doppelklick auf "package"
         // Plugin wird automatisch in dne plugin ordner exportiert
+
+        addRecipes();
 
         // register events
         getServer().getPluginManager().registerEvents(new BlockBreakListener(), this);
